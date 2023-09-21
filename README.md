@@ -1,4 +1,7 @@
 OpenAI Generated ERC-20
+
+Create empty "contracts" folder.
+
 ### Installation
 ```npm install```
 ### Running locally
