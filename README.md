@@ -1,13 +1,16 @@
 ### Prerequisites
-Node.js
-Hardhat development environment
-An OpenAI API key
+-Node.js
+
+-Hardhat development environment
+
+-OpenAI API key
 
 ### Setup
-Clone the repository. 
-```npm install```
-Create empty "contracts" folder.
-Create .env file containing OPENAI_API_KEY, GOERLI_PRIVATE_KEY, and GOERLI_URL (RPC) and fill in the values
+Clone the repository.
+
+run ```npm install```
+
+Create empty "contracts" folder, and .env file containing OPENAI_API_KEY, GOERLI_PRIVATE_KEY, and GOERLI_URL (RPC) values
 
 ### Modifying GPT Interactions
 To modify the interactions with GPT, refer to the deploygpt4.ts script inside the scripts directory:
