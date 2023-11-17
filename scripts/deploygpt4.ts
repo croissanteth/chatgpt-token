@@ -19,7 +19,7 @@ async function generateERC20Contract(name: string) {
   };
 
   const data = {
-    model: "gpt-3.5-turbo",
+    model: "gpt-4",
     messages: [
       {
         role: "system",
@@ -283,6 +283,7 @@ async function getERC20Parameters() {
   const imageRequestData = {
     prompt: promptForImage,
     n: 1,
+    model: "dall-e-3",
     size: "1024x1024",
   };
 
